@@ -1,2 +1,2 @@
-# crypto_ckg
- bot
+# C_K_G_
+ project
