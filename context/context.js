@@ -19,7 +19,7 @@ export const PROVIDER = ({ children }) => {
             const URL = "https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v3";
             const query = `
             {
-                tokens (orderBy: volumeUSD, orderDirection: desc, first:20){
+                tokens(orderBy: volumeUSD, orderDirection: desc, first:20){
                     id
                     name
                     symbol

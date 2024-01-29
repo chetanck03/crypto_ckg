@@ -1,4 +1,5 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } 
+from "react";
 import { FaRegCopy } from "react-icons/fa6";
 
 //INTERNAL IMPORT
@@ -44,7 +45,8 @@ const TopExchangeTokens = () => {
     }
   }, [search]);
 
-  return <div className="techwave_fn_content">
+  return (
+  <div className="techwave_fn_content">
     <div className="techwave_fn_page">
       <div className="techwave_fn_community_page">
         <div className="fn__title_holder">
@@ -57,7 +59,10 @@ const TopExchangeTokens = () => {
           <div className="container">
             <div className="feed__filter">
               <div className="filter__search">
-                <input type="text" placeholder="Search token.." onChange={(e) => setSearchItem(e.target.value)} value={searchItem} />
+                <input type="text" placeholder="Search token.."
+                 onChange={(e) => setSearchItem
+                 (e.target.value)} 
+                 value={searchItem} />
                 <a className="techwave_fn_button">
                   <span>Search</span>
                 </a>
@@ -139,7 +144,7 @@ const TopExchangeTokens = () => {
     <Footer/>
   </div>
 
-
+  );
 };
 
 export default TopExchangeTokens;

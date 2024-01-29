@@ -81,21 +81,26 @@ const SideBar = ({ setActiveComponent}) => {
     <div className='mobile_extra_closer'></div>
     <div className='leftpanel_logo'>
       <a className='fn_logo'>
+
         <span className='full_logo'>
           <img src='img/light-logo.png' className='desktop_logo' alt='' />
           <img src='img/light-logo.png' className='retina_logo' alt='' />
         </span>
+
         <span className='short_logo'>
           <img src='img/logo-desktop-mini.png' className='desktop_logo' alt='' />
           <img src='img/crypto.png' className='retina_logo' alt='' />
         </span>
+
       </a>
       <a href='#' className='fn__closer fn__icon_button desktop_closer'>
         <img src='img/lighticon/light-22.png' alt="" className='fn__svg'/>
       </a>
+
       <a href='#' className='fn__closer fn__icon_button mobile_closer'>
         <img src='img/lighticon/light-22.png' alt="" className='fn__svg'/>
       </a>
+      
     </div>
 
     {/* // COMPONENT */}
